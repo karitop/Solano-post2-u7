@@ -4,9 +4,9 @@ Este laboratorio explora dos mecanismos fundamentales del hardware en modo real 
 
 **Programas**
 
-- post2a.asmLee teclas con INT 16h y muestra el scan code y código ASCII en hexadecimal. Sale con ESC.
-- post2b.asmEscribe caracteres con colores distintos directamente en el segmento de video B800h.
-- post2c.asmRellena toda la pantalla con fondo azul usando REP STOSW y muestra un mensaje centrado.post2d.asmMini editor de una línea: integra INT 16h con escritura directa en B800h.
+- post2a.asm: Lee teclas con INT 16h y muestra el scan code y código ASCII en hexadecimal. Sale con ESC.
+- post2b.asm: Escribe caracteres con colores distintos directamente en el segmento de video B800h.
+- post2c.asm: Rellena toda la pantalla con fondo azul usando REP STOSW y muestra un mensaje centrado.post2d.asmMini editor de una línea: integra INT 16h con escritura directa en B800h.
 
 **Compilación y ejecución**
 
